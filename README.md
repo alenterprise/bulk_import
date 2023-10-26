@@ -13,7 +13,7 @@ Be sure to fill the right snmp parameters including :
 - authProtocol: (Type of hash/encryption used in the SNMP profile created)
 - authPassword
 - privPassword
-- 
+
 ```json
 {
     "ipAddress": "1.1.1.1",
