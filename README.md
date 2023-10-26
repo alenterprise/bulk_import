@@ -6,6 +6,14 @@ python3 addDevice.py inventory_2.csv
 
 # Pre-requisites 
 
+This is the payload sent to OmniVista.
+Be sure to fill the right snmp parameters including :
+- snmpVersion: (Version of the SNMP used)
+- securityName:(Name of the snmp profile created on OmniVista 2500 web ui)
+- authProtocol: (Type of hash/encryption used in the SNMP profile created)
+- authPassword
+- privPassword
+- 
 ```json
 {
     "ipAddress": "1.1.1.1",
